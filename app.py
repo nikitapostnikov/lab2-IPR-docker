@@ -1,4 +1,4 @@
-import time
+﻿import time
 import numpy as np
 from flask import Flask, Response, request
 
@@ -76,7 +76,7 @@ HTML = """<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>THE ПОНЧИК 🍩</title>
+  <title>THE ПОНЧИК</title>
   <style>
     html, body {
       margin: 0;
