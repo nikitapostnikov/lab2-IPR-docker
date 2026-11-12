@@ -9,7 +9,7 @@
 
 В рамках данной лабораторной работы я создал Docker с контейнером для визуального веб - проекта, представляющего собой крутящийся пончик (тор) с возможностью изменения скорости вращения, реализованного на python-flask и numpy.
 
-Получение образа через Docker Hub: **pull nikpos0fficial/ponchiq:1.0.0**; ссылка на образ:  https://hub.docker.com/r/nikpos0fficial/ponchiq
+Запуск - Получение образа через Docker Hub: **pull nikpos0fficial/ponchiq:1.0.0** и затем запуск самого образа: **docker run -d -p 8080:8080 nikpos0fficial/ponchiq:1.0.0** (либо с Bind Mounts: **docker run -d -p 8080:8080 -v "$(PWD):/ponchiq" nikpos0fficial/ponchiq:1.0.0**); ссылка на образ:  https://hub.docker.com/r/nikpos0fficial/ponchiq
 
 Схема  Docker - а:
 
