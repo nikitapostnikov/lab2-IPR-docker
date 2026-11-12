@@ -48,7 +48,7 @@
 
             .git
 
-            APP_README.md
+            README.md
 
             __pycache__
 
